@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form for event listener in javascript</title>
+  </head>
+  <style>
+    body {
+      background-color: bisque;
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    }
+    .container {
+      border: 1px solid black;
+      width: 75%;
+      text-align: center;
+      margin: auto;
+      margin-top: 20px;
+    }
+    div > h1 {
+      text-align: center;
+    }
+    div > button {
+      border-radius: 10px;
+      height: 30px;
+      margin-bottom: 20px;
+      margin: 20px;
+      width: 80px;
+
+      border: 1px solid black;
+      background-color: rgb(43, 186, 226);
+    }
+    div > button:hover {
+      transform: scale(1.1);
+      background-color: ;
+    }
+    #lname,
+    #fname {
+      height: 30px;
+      margin-top: 10px;
+      border: 1px solid black;
+      border-radius: 10px;
+      padding-left: 20px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div>
+        <h1>Registration Form</h1>
+      </div>
+      <div>
+        <label for="First-Name">First Name</label>
+        <input
+          type="text"
+          placeholder="Enter your First Name"
+          required
+          id="fname"
+        />
+      </div>
+      <div>
+        <label for="Last-Name">Last Name</label>
+        <input
+          type="text"
+          placeholder="Enter your last  Name"
+          required
+          id="lname"
+        />
+      </div>
+      <div>
+        <p class="js-para"></p>
+      </div>
+      <div>
+        <button id="submitbtn" type="submit" onclick="displayText()">
+          Submit
+        </button>
+        <button type="reset" onclick="reset()">Reset</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

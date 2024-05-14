@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: cadetblue;
+}
+
+.CLOCK-CONTAINER{
+    background-color: beige;
+    width: 350px;
+    text-align: center;
+    border-radius: 10px 0;
+    box-shadow: 3px 10px 8px rgb(0, 0, 0);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row ;
+}
+
+.hour{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 25px;
+}
+
+.min{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 25px;
+}
+
+
+.sec{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 25px;
+}
+
+span{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 25px;
+    position: relative;
+    bottom: -15px;    
+}

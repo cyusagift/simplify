@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(to left, cadetblue , cornflowerblue 100%);
+    color: #fff;
+    font-size: 20px;
+    font-family: verdana;
+}
+
+.container{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    padding: 20px;
+    background-color:  rgba(0, 0, 0, .6);;
+    box-shadow: 0 19px 28px rgba(0, 0, 0, .6);
+}
+
+input{
+    color: aliceblue;
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+}
+
+button{
+    margin-top: 9px;
+    padding: 10px;
+    width: 100%;
+    background-color: cadetblue;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+::placeholder{
+    font-size: 15px;
+    
+}
